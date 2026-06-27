@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO PRIMAIRE -->
+  <title>CodeM — Développement d'applications web et logiciels pour entreprises</title>
+  <meta name="description" content="CodeM conçoit des sites web, applications web et outils sur mesure pour les entreprises. Développement rapide, fiable et 100% personnalisé. Réponse sous 24h."/>
+  <meta name="keywords" content="développement web, application web, logiciel sur mesure, site web entreprise, développeur web, création site internet, application métier, freelance développeur"/>
+  <meta name="author" content="CodeM"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://www.codem.fr/"/>
+
+  <!-- OPEN GRAPH (partage réseaux sociaux) -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.codem.fr/"/>
+  <meta property="og:title" content="CodeM — Développement web & logiciels pour entreprises"/>
+  <meta property="og:description" content="Des applications web solides, rapides et sur mesure. Conçues pour les entreprises qui veulent aller plus loin."/>
+  <meta property="og:image" content="https://www.codem.fr/og-image.png"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:site_name" content="CodeM"/>
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="CodeM — Développement web & logiciels pour entreprises"/>
+  <meta name="twitter:description" content="Des applications web solides, rapides et sur mesure. Conçues pour les entreprises qui veulent aller plus loin."/>
+  <meta name="twitter:image" content="https://www.codem.fr/og-image.png"/>
+
+  <!-- SCHEMA.ORG (données structurées pour Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "CodeM",
+    "description": "Développement d'applications web, sites internet et logiciels sur mesure pour les entreprises.",
+    "url": "https://www.codem.fr",
+    "email": "contact@codem.fr",
+    "telephone": "+33600000000",
+    "priceRange": "€€",
+    "areaServed": "FR",
+    "serviceType": ["Développement web", "Application web", "Logiciel sur mesure"],
+    "sameAs": []
+  }
+  </script>
+
+  <!-- PERFORMANCE -->
+  <meta name="theme-color" content="#040d1a"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#040d1a;color:#fff;overflow-x:hidden}
+
+    nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px 56px;background:rgba(4,13,26,0.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.08)}
+    .nav-logo{display:flex;align-items:center;gap:10px;cursor:pointer}
+    .nav-icon{background:#185FA5;border-radius:9px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-family:monospace;font-size:12px;font-weight:700;color:#fff}
+    .nav-name{font-size:18px;font-weight:700;color:#fff}
+    .nav-name span{color:#4da6ff}
+    .nav-links{display:flex;gap:36px}
+    .nav-links a{font-size:14px;color:rgba(255,255,255,0.7);cursor:pointer;transition:color .2s;text-decoration:none}
+    .nav-links a:hover{color:#fff}
+    .nav-cta{background:#185FA5;color:#fff;padding:10px 22px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;border:none;transition:background .2s}
+    .nav-cta:hover{background:#1a70c2}
+
+    .hero{padding:120px 56px 100px;position:relative;overflow:hidden}
+    .hero-bg{position:absolute;top:-120px;right:-100px;width:600px;height:600px;background:radial-gradient(circle,rgba(24,95,165,0.25) 0%,transparent 70%);pointer-events:none}
+    .hero-bg2{position:absolute;bottom:-80px;left:-60px;width:400px;height:400px;background:radial-gradient(circle,rgba(55,138,221,0.1) 0%,transparent 70%);pointer-events:none}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(24,95,165,0.2);border:1px solid rgba(77,166,255,0.4);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:600;color:#7dc4ff;letter-spacing:1.5px;margin-bottom:32px}
+    .badge-dot{width:6px;height:6px;border-radius:50%;background:#4da6ff}
+    h1{font-size:64px;font-weight:800;line-height:1.05;letter-spacing:-2.5px;margin-bottom:28px;max-width:680px;color:#fff}
+    h1 em{font-style:normal;color:#4da6ff}
+    .hero-sub{font-size:18px;color:rgba(255,255,255,0.72);line-height:1.7;max-width:520px;margin-bottom:48px}
+    .hero-actions{display:flex;align-items:center;gap:20px}
+    .btn-primary{background:#185FA5;color:#fff;padding:16px 36px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;border:none;transition:all .2s}
+    .btn-primary:hover{background:#1a70c2;transform:translateY(-1px)}
+    .btn-ghost{color:rgba(255,255,255,0.75);font-size:15px;cursor:pointer;display:flex;align-items:center;gap:8px;background:none;border:none}
+    .btn-ghost:hover{color:#fff}
+    .hero-stats{display:flex;gap:56px;margin-top:72px;padding-top:48px;border-top:1px solid rgba(255,255,255,0.1)}
+    .stat-num{font-size:36px;font-weight:800;letter-spacing:-1px;color:#fff}
+    .stat-num span{color:#4da6ff}
+    .stat-label{font-size:13px;color:rgba(255,255,255,0.55);margin-top:4px}
+
+    .services{padding:100px 56px}
+    .section-tag{font-size:11px;font-weight:700;letter-spacing:3px;color:#4da6ff;margin-bottom:16px}
+    .section-title{font-size:42px;font-weight:800;letter-spacing:-1.5px;margin-bottom:64px;line-height:1.1;color:#fff}
+    .section-title span{color:rgba(255,255,255,0.4)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,0.08);border-radius:16px;overflow:hidden}
+    .card{background:#040d1a;padding:48px 40px;transition:background .25s;position:relative;overflow:hidden}
+    .card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:#185FA5;transform:scaleX(0);transition:transform .3s;transform-origin:left}
+    .card:hover{background:#071428}
+    .card:hover::before{transform:scaleX(1)}
+    .card-num{font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.35);margin-bottom:32px}
+    .card-icon-wrap{width:52px;height:52px;border-radius:12px;background:rgba(24,95,165,0.2);border:1px solid rgba(77,166,255,0.25);display:flex;align-items:center;justify-content:center;margin-bottom:24px}
+    .card-icon-wrap svg{width:24px;height:24px;stroke:#4da6ff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    .card-title{font-size:20px;font-weight:700;margin-bottom:12px;color:#fff}
+    .card-desc{font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7}
+
+    .projets{padding:100px 56px;background:rgba(255,255,255,0.02)}
+    .projet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .projet-card{background:#071428;border:1px solid rgba(255,255,255,0.08);border-radius:16px;overflow:hidden;transition:all .25s;cursor:pointer}
+    .projet-card:hover{border-color:rgba(77,166,255,0.4);transform:translateY(-4px)}
+    .projet-thumb{height:180px;display:flex;align-items:center;justify-content:center;font-size:48px;position:relative}
+    .projet-thumb.blue{background:linear-gradient(135deg,#0d2d4a 0%,#185FA5 100%)}
+    .projet-thumb.teal{background:linear-gradient(135deg,#062a1e 0%,#0F6E56 100%)}
+    .projet-thumb.purple{background:linear-gradient(135deg,#1a0d3a 0%,#534AB7 100%)}
+    .projet-thumb-label{position:absolute;top:12px;right:12px;background:rgba(0,0,0,0.4);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:4px 10px;font-size:11px;font-weight:600;color:rgba(255,255,255,0.8);letter-spacing:1px}
+    .projet-body{padding:24px}
+    .projet-tag{font-size:10px;font-weight:700;letter-spacing:2px;color:#4da6ff;margin-bottom:8px}
+    .projet-title{font-size:17px;font-weight:700;color:#fff;margin-bottom:8px}
+    .projet-desc{font-size:13px;color:rgba(255,255,255,0.55);line-height:1.6}
+    .projet-tech{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+    .tech-pill{background:rgba(24,95,165,0.2);border:1px solid rgba(77,166,255,0.2);border-radius:100px;padding:3px 10px;font-size:11px;color:#7dc4ff}
+
+    .trust{padding:60px 56px;display:flex;gap:24px}
+    .trust-block{flex:1;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:36px 32px;display:flex;align-items:flex-start;gap:20px}
+    .trust-icon{font-size:24px;flex-shrink:0;margin-top:2px}
+    .trust-text h3{font-size:16px;font-weight:600;margin-bottom:6px;color:#fff}
+    .trust-text p{font-size:13px;color:rgba(255,255,255,0.6);line-height:1.6}
+
+    .contact{padding:100px 56px;position:relative;overflow:hidden}
+    .contact-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:500px;background:radial-gradient(ellipse,rgba(24,95,165,0.15) 0%,transparent 70%);pointer-events:none}
+    .contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;position:relative}
+    .contact-left h2{font-size:44px;font-weight:800;letter-spacing:-1.5px;margin-bottom:16px;color:#fff;line-height:1.1}
+    .contact-left h2 span{color:#4da6ff}
+    .contact-left p{font-size:16px;color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:36px}
+    .contact-info{display:flex;flex-direction:column;gap:16px}
+    .contact-info-item{display:flex;align-items:center;gap:12px;font-size:14px;color:rgba(255,255,255,0.65)}
+    .contact-info-item svg{width:18px;height:18px;stroke:#4da6ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+    .form{display:flex;flex-direction:column;gap:20px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .form-group{display:flex;flex-direction:column;gap:8px}
+    .form-group label{font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:0.3px}
+    .form-group input,.form-group textarea,.form-group select{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:14px 16px;font-size:14px;color:#fff;font-family:inherit;outline:none;transition:border-color .2s;width:100%}
+    .form-group input::placeholder,.form-group textarea::placeholder{color:rgba(255,255,255,0.3)}
+    .form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:#4da6ff}
+    .form-group textarea{resize:vertical;min-height:130px}
+    .form-group select{appearance:none;cursor:pointer}
+    .form-group select option{background:#071428;color:#fff}
+    .form-submit{background:#185FA5;color:#fff;padding:16px;border-radius:10px;font-size:16px;font-weight:700;cursor:pointer;border:none;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:10px}
+    .form-submit:hover{background:#1a70c2;transform:translateY(-1px)}
+    .form-submit svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    #success-msg{display:none;background:rgba(15,110,86,0.2);border:1px solid rgba(29,158,117,0.4);border-radius:10px;padding:16px;text-align:center;color:#5DCAA5;font-size:14px;font-weight:600}
+
+    footer{padding:28px 56px;border-top:1px solid rgba(255,255,255,0.08);display:flex;justify-content:space-between;align-items:center}
+    .footer-logo{font-size:15px;font-weight:700;color:rgba(255,255,255,0.6)}
+    .footer-logo span{color:#4da6ff}
+    .footer-copy{font-size:12px;color:rgba(255,255,255,0.35)}
+
+    @media(max-width:768px){
+      nav{padding:16px 24px}
+      .nav-links{display:none}
+      .hero{padding:72px 24px 60px}
+      h1{font-size:38px;letter-spacing:-1.5px}
+      .hero-stats{gap:28px;flex-wrap:wrap}
+      .services,.projets,.contact{padding:60px 24px}
+      .cards,.projet-grid{grid-template-columns:1fr}
+      .trust{padding:40px 24px;flex-direction:column}
+      .contact-inner{grid-template-columns:1fr;gap:48px}
+      .contact-left h2{font-size:34px}
+      .form-row{grid-template-columns:1fr}
+      footer{padding:20px 24px;flex-direction:column;gap:8px;text-align:center}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Navigation principale">
+    <div class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="CodeM - Retour accueil">
+      <div class="nav-icon">&lt;M&gt;</div>
+      <div class="nav-name">code<span>M</span></div>
+    </div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Démarrer un projet</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-bg2" aria-hidden="true"></div>
+    <div class="hero-badge"><div class="badge-dot"></div>DÉVELOPPEMENT WEB &amp; LOGICIELS</div>
+    <h1>On construit ce que<br>votre business <em>mérite.</em></h1>
+    <p class="hero-sub">Des applications web solides, rapides et sur mesure. Conçues pour les entreprises qui veulent aller plus loin.</p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Nous contacter →</button>
+      <button class="btn-ghost" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 16"/><polyline points="8 12 12 16 16 12"/></svg>
+        Voir nos services
+      </button>
+    </div>
+    <div class="hero-stats" aria-label="Chiffres clés">
+      <div><div class="stat-num">100<span>%</span></div><div class="stat-label">sur mesure</div></div>
+      <div><div class="stat-num">24<span>h</span></div><div class="stat-label">délai de réponse</div></div>
+      <div><div class="stat-num">5<span>★</span></div><div class="stat-label">satisfaction client</div></div>
+    </div>
+  </section>
+
+  <section class="services" id="services" aria-labelledby="services-title">
+    <p class="section-tag">NOS SERVICES</p>
+    <h2 class="section-title" id="services-title">Ce qu'on fait,<br><span>on le fait bien.</span></h2>
+    <div class="cards">
+      <article class="card">
+        <div class="card-num">01</div>
+        <div class="card-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3 class="card-title">Création de sites web</h3>
+        <p class="card-desc">Rapides, beaux et pensés pour convertir. Des sites professionnels qui représentent vraiment votre entreprise et attirent vos clients.</p>
+      </article>
+      <article class="card">
+        <div class="card-num">02</div>
+        <div class="card-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <h3 class="card-title">Développement d'applications web</h3>
+        <p class="card-desc">Des outils métier puissants qui automatisent vos process et font gagner du temps à vos équipes au quotidien.</p>
+      </article>
+      <article class="card">
+        <div class="card-num">03</div>
+        <div class="card-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+        <h3 class="card-title">Logiciels sur mesure</h3>
+        <p class="card-desc">Votre besoin est unique ? On développe la solution exacte dont vous avez besoin, de A à Z, adaptée à votre secteur.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="projets" id="projets" aria-labelledby="projets-title">
+    <p class="section-tag">NOS RÉALISATIONS</p>
+    <h2 class="section-title" id="projets-title">Des projets qui<br><span>parlent pour nous.</span></h2>
+    <div class="projet-grid">
+      <article class="projet-card">
+        <div class="projet-thumb blue" aria-hidden="true">🛒<div class="projet-thumb-label">E-COMMERCE</div></div>
+        <div class="projet-body">
+          <p class="projet-tag">SITE WEB</p>
+          <h3 class="projet-title">Boutique en ligne — MaisonDeco</h3>
+          <p class="projet-desc">Plateforme e-commerce complète avec gestion des stocks, paiement sécurisé et tableau de bord admin.</p>
+          <div class="projet-tech"><span class="tech-pill">React</span><span class="tech-pill">Node.js</span><span class="tech-pill">Stripe</span></div>
+        </div>
+      </article>
+      <article class="projet-card">
+        <div class="projet-thumb teal" aria-hidden="true">📊<div class="projet-thumb-label">DASHBOARD</div></div>
+        <div class="projet-body">
+          <p class="projet-tag">APPLICATION WEB</p>
+          <h3 class="projet-title">CRM interne — LogiPro</h3>
+          <p class="projet-desc">Outil de gestion clients avec suivi des ventes, relances automatiques et rapports en temps réel.</p>
+          <div class="projet-tech"><span class="tech-pill">Vue.js</span><span class="tech-pill">PostgreSQL</span><span class="tech-pill">Chart.js</span></div>
+        </div>
+      </article>
+      <article class="projet-card">
+        <div class="projet-thumb purple" aria-hidden="true">📅<div class="projet-thumb-label">SaaS</div></div>
+        <div class="projet-body">
+          <p class="projet-tag">OUTIL SUR MESURE</p>
+          <h3 class="projet-title">Planification RH — StaffEasy</h3>
+          <p class="projet-desc">Application de gestion des plannings d'équipe avec notifications, congés et exports automatiques.</p>
+          <div class="projet-tech"><span class="tech-pill">Next.js</span><span class="tech-pill">Prisma</span><span class="tech-pill">Tailwind</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="trust" aria-label="Nos engagements">
+    <div class="trust-block">
+      <div class="trust-icon" aria-hidden="true">🔒</div>
+      <div class="trust-text"><h3>Code propre et sécurisé</h3><p>Chaque ligne est écrite avec soin. Votre application est robuste et maintainable dans le temps.</p></div>
+    </div>
+    <div class="trust-block">
+      <div class="trust-icon" aria-hidden="true">⚡</div>
+      <div class="trust-text"><h3>Livraison dans les délais</h3><p>On respecte les deadlines. Vous savez toujours où en est votre projet, sans surprises.</p></div>
+    </div>
+    <div class="trust-block">
+      <div class="trust-icon" aria-hidden="true">🤝</div>
+      <div class="trust-text"><h3>Accompagnement continu</h3><p>On reste disponibles après la livraison. Vous n'êtes jamais seuls face à votre produit.</p></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="contact-bg" aria-hidden="true"></div>
+    <div class="contact-inner">
+      <div class="contact-left">
+        <p class="section-tag">CONTACT</p>
+        <h2 id="contact-title">Un projet ?<br><span>Parlons-en.</span></h2>
+        <p>Dites-nous ce que vous voulez construire. On analyse votre besoin et on vous répond sous 24h.</p>
+        <address class="contact-info">
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@codem.fr" style="color:inherit;text-decoration:none">contact@codem.fr</a>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.66-.66a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            <a href="tel:+33600000000" style="color:inherit;text-decoration:none">+33 6 00 00 00 00</a>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Réponse sous 24h
+          </div>
+        </address>
+      </div>
+      <div class="form" role="form" aria-label="Formulaire de contact">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Jean" autocomplete="given-name"/>
+          </div>
+          <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Dupont" autocomplete="family-name"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="jean@entreprise.fr" autocomplete="email"/>
+        </div>
+        <div class="form-group">
+          <label for="service">Type de projet</label>
+          <select id="service" name="service">
+            <option value="" disabled selected>Choisir un service...</option>
+            <option value="site-web">Site web</option>
+            <option value="application-web">Application web</option>
+            <option value="outil-sur-mesure">Outil sur mesure</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" placeholder="Décrivez votre projet, vos besoins, votre délai..."></textarea>
+        </div>
+        <button class="form-submit" onclick="handleSubmit()" type="button">
+          Envoyer le message
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+        <div id="success-msg" role="alert">✓ Message envoyé ! On vous répond sous 24h.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-logo">code<span>M</span></div>
+  <div class="footer-copy">© 2025 CodeM — Tous droits réservés</div>
+</footer>
+
+<script>
+  function handleSubmit(){
+    const inputs = document.querySelectorAll('.form-group input, .form-group textarea, .form-group select');
+    let ok = true;
+    inputs.forEach(i => {
+      if(!i.value.trim()){
+        i.style.borderColor = 'rgba(220,80,80,0.6)';
+        ok = false;
+      } else {
+        i.style.borderColor = 'rgba(255,255,255,0.12)';
+      }
+    });
+    if(!ok) return;
+    const btn = document.querySelector('.form-submit');
+    btn.style.opacity = '0.5';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
+    }, 600);
+  }
+</script>
+
+</body>
+</html>
